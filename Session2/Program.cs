@@ -46,23 +46,36 @@
 #region
 // 4. Write C# program that Extract a substring from a given string. 
 
-string message = "Hello World!";  
-Console.WriteLine("the given string is " + message);
-Console.Write("Enter the chosen Word number:  ");
+//string message = "Hello World!";  
+//Console.WriteLine("the given string is " + message);
+//Console.Write("Enter the chosen Word number:  ");
 
-int input = int.Parse(Console.ReadLine());
+//int input = int.Parse(Console.ReadLine());
 
-if (input == 1)
-{
-    Console.WriteLine(message.Substring(0,5));
-}
-else if(input == 2)
-{
-    Console.WriteLine(message.Substring(6,5));
-        
-}
-else
-{
-    Console.WriteLine("Invalid input");
-}
+//if (input == 1)
+//{
+//    Console.WriteLine(message.Substring(0,5));
+//}
+//else if(input == 2)
+//{
+//    Console.WriteLine(message.Substring(6,5));
+
+//}
+//else
+//{
+//    Console.WriteLine("Invalid input");
+//}
+#endregion
+
+#region
+// 5. Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen 
+
+int number1 = 19;
+int number2 = number1;
+
+number2 = 10;
+Console.WriteLine(number1);
+Console.WriteLine(number2);
+
+// Modifing the value of number2 does not affect number1 because they are value types and stored in different memory locations.
 #endregion
