@@ -95,3 +95,16 @@
 // Modifying the object through student2 also affects student1 because They both reference the same object in memory.
 #endregion
 
+#region
+
+// 7. Write C# program that take two string variables and print them as one variable  
+
+//string firstText = "Hello";
+//string secondText = "World";
+//string combinedText = firstText + " " + secondText;
+//Console.WriteLine(combinedText);
+
+#endregion
+
+
+
