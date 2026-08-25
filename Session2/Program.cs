@@ -70,12 +70,28 @@
 #region
 // 5. Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen 
 
-int number1 = 19;
-int number2 = number1;
+//int number1 = 19;
+//int number2 = number1;
 
-number2 = 10;
-Console.WriteLine(number1);
-Console.WriteLine(number2);
+//number2 = 10;
+//Console.WriteLine(number1);
+//Console.WriteLine(number2);
 
 // Modifing the value of number2 does not affect number1 because they are value types and stored in different memory locations.
 #endregion
+
+
+
+#region
+// 6. Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen 
+
+//Student student1 = new Student();
+//Student student2 = student1;
+
+//student2.Name = "John";
+//Console.WriteLine(student1.Name);
+//Console.WriteLine(student2.Name);
+
+// Modifying the object through student2 also affects student1 because They both reference the same object in memory.
+#endregion
+
